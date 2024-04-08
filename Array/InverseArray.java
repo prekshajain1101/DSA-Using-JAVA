@@ -11,9 +11,10 @@ public class InverseArray {
         for (int idx = 0; idx < n; idx++) {
             arr[idx] = sc.nextInt();
         }
-        int inverse[] = new int[n];
-        for (int idx = 0; idx < n; idx++) {
-            inverse[arr[idx]] = idx;
+        int inverse[] = new int[arr.length];
+        for(int idx = 0 ; idx < n ; idx++){
+        int val = arr[idx];
+        inverse[val] = idx;
         }
         for(int idx = 0; idx < n; idx++){
             System.out.print(inverse[idx]);
