@@ -14,8 +14,8 @@ public class MatrixMultiplication {
         int nr2 = scn.nextInt();
         int nc2 = scn.nextInt();
         int mat2 [] [] = new int[nr2] [nc2];
-        for(int i = 0 ; i < nr1 ; i++){
-            for(int j = 0 ; j < nc1 ; j++){
+        for(int i = 0 ; i < nr2 ; i++){
+            for(int j = 0 ; j < nc2 ; j++){
                 mat2 [i] [j] = scn.nextInt();
             }
         }
